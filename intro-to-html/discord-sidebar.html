@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Discord Sidebar</title>
+  <style>
+    body {
+      display: flex;
+      margin: 0;
+      height: 5000px;
+      color: white;
+      font-family: Arial;
+      font-size: 14px;
+      padding: 0;
+    }
+
+    .content {
+      margin-left: 230px;
+      padding: 15px;
+      flex: 1;
+      background-color: rgb(78, 93, 148);
+      height: auto;
+    }
+
+
+    .server-sidebar {
+      width: 70px;
+      background-color: rgb(33, 33, 33);
+      position: fixed;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      padding-top: 20px;
+
+    }
+
+    .server-pics {
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      margin-bottom: 20px;
+      margin-left: 10px;
+      margin-right: 10px;
+      object-fit: cover;
+    }
+
+    .channels-sidebar {
+      color: white;
+      background-color: rgb(55, 55, 55);
+      position: fixed;
+      left: 70px;
+      top: 0;
+      bottom: 0;
+      width: 130px;
+      padding-top: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: bold;
+    }
+
+    .add-button {
+      background-color: transparent;
+      color: rgb(172, 172, 172);
+      border: none;
+      font-size: 20px;
+      padding: 0;
+    }
+
+    .channel {
+      padding-top: 8px;
+      color: rgb(168, 167, 167);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="sidebars">
+    <div class="server-sidebar">
+      <img class="server-pics" src="squared/server1.jpg">
+      <img class="server-pics" src="squared/server2.jpg">
+      <img class="server-pics" src="squared/server3.jpg">
+
+    </div>
+    <div class="channels-sidebar">
+      <div class="header">
+        <div class="INFO">INFO</div>
+        <div>
+          <button class="add-button">+</button>
+        </div>
+      </div>
+      <div class="channel"># new-videos</div>
+      <div class="channel"># updates</div>
+      <div class="channel"># faq</div>
+    </div>
+  </div>
+  <div class="content">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet malesuada mattis. Pellentesque nisi lectus,
+    sollicitudin mattis dignissim non, ornare id mauris. Curabitur nec consectetur dui, vel euismod nisi. In lacinia
+    risus in turpis ultricies, sit amet blandit purus congue. Interdum et malesuada fames ac ante ipsum primis in
+    faucibus. Aliquam et tempor diam, et lacinia urna. Vivamus accumsan auctor condimentum. Nam magna neque, elementum
+    ut pellentesque et, fermentum a dui. Curabitur aliquam lobortis magna eu luctus. Aenean iaculis iaculis elit, at
+    hendrerit enim convallis eu. Nunc purus nulla, lobortis sit amet suscipit vel, mattis ut lectus.
+
+    Maecenas ut justo ultricies, consectetur sem eget, bibendum nulla. Vivamus ornare erat eu ante scelerisque, sit amet
+    lobortis quam fringilla. Cras ullamcorper dolor urna, finibus egestas nunc consequat id. Integer vehicula sed ante
+    ut posuere. Praesent vel suscipit nibh, a vestibulum nisi. Duis ac odio fermentum mi rutrum pellentesque vel quis
+    augue. Ut auctor sapien eget consequat viverra. Etiam porta vitae tortor quis posuere.
+
+    Aliquam erat volutpat. Phasellus sit amet libero at dolor finibus porta in pharetra metus. Fusce pharetra arcu in
+    est rhoncus, quis congue arcu efficitur. Aenean molestie eleifend enim vel molestie. Proin finibus mauris a massa
+    mattis, at tristique mauris ornare. Maecenas mattis, libero ut eleifend lobortis, magna diam ultrices ex, eu
+    accumsan quam tellus eu odio. Mauris viverra at sapien ac eleifend. Vivamus vitae nunc ac sem faucibus auctor.
+
+    Etiam quam dolor, consequat eget lorem sit amet, interdum venenatis mauris. Proin tempor viverra enim, non vehicula
+    purus ornare porta. Aenean eu quam finibus, suscipit elit eget, tempus neque. Aenean eget dolor erat. Aliquam erat
+    volutpat. Proin id semper leo, id euismod elit. Donec convallis ex ut purus rhoncus accumsan. Nulla viverra lacus ac
+    urna consectetur laoreet. Duis at tincidunt erat, in auctor leo. Maecenas ullamcorper nibh non risus gravida
+    dignissim. Praesent non massa commodo risus efficitur laoreet sed in nunc.
+
+    Praesent euismod tristique consectetur. Proin venenatis massa nec eros ullamcorper, in scelerisque ex iaculis. Donec
+    ut sem vitae arcu semper ultrices elementum vitae erat. Orci varius natoque penatibus et magnis dis parturient
+    montes, nascetur ridiculus mus. Nullam vel sem sit amet leo dapibus viverra at eget lacus. Vestibulum accumsan in
+    est luctus laoreet. Nam felis felis, dictum a porttitor eu, sodales at tortor. Aliquam sed metus a felis volutpat
+    rhoncus a at ex. Nunc nec interdum felis. Donec et lacus ac orci semper placerat ut sit amet sapien. Aenean
+    vestibulum pretium lectus, et maximus turpis varius at. Nullam ac elit ac risus vulputate placerat.
+  </div>
+</body>
+
+</html>
