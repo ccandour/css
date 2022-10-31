@@ -10,6 +10,11 @@
   margin-bottom: 10px;
 }
 
+.video-link {
+  text-decoration: none;
+  color: black;
+}
+
 .video-info-grid {
   display: grid;
   grid-template-columns: 50px 1fr;
@@ -20,17 +25,22 @@
   vertical-align: top;
 }
 
+.channel-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* .video-info {
 
 } */
 
 .profile-picture {
-  width: 80%;
+  width: 72%;
   border-radius: 50px;
 }
 
 .thumbnail-row {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   position: relative;
 }
 

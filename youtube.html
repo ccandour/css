@@ -27,18 +27,27 @@
 
       <button class="search-button">
         <img class="search-icon" src="icons/search.svg">
+        <div class="tooltip">Search</div>
       </button>
 
       <button class="voice-search-button">
         <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
       </button>
     </div>
     <div class="right-section">
-      <img class="upload-icon" src="icons/upload.svg">
-      <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="icons/upload.svg">
+        <div class="tooltip">Create</div>
+      </div>
+      <div class="youtube-apps-icon-container">
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+        <div class="tooltip">YouTube Apps</div>
+      </div>
       <div class="notifications-icon-container">
         <img class="notifications-icon" src="icons/notifications.svg">
         <div class="notifications-count">3</div>
+        <div class="tooltip">Notifications</div>
       </div>
       <img class="current-user-picture" src="channel-pics/my-channel.jpeg">
     </div>
@@ -47,28 +56,59 @@
   </div>
 
   <div class="sidebar">
-    sidebar
+    <div class="sidebar-link">
+      <img src="icons/home.svg">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/explore.svg">
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/subscriptions.svg">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/originals.svg">
+      <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/youtube-music.svg">
+      <div>YouTube Music</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/library.svg">
+      <div>Library</div>
+    </div>
   </div>
 
   <div class="video-grid">
 
     <div class="video-preview">
       <div class="thumbnail-row">
-        <img class="thumbnail" src="thumbnails/thumbnail-1.webp"> 
+        <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.webp"> 
+        </a>
         <div class="video-time">
           14:20
         </div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
-          <img class="profile-picture" src="channel-pics/channel-1.jpeg">
+          <a href="https://www.youtube.com/c/mkbhd">
+            <img class="profile-picture" src="channel-pics/channel-1.jpeg">
+          </a>
         </div>
         <div class="video-info">
           <p class="video-title">
+            <a class="video-link" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
             Talking Tech and AI with Google CEO Sundar Pichai!
+            </a>
           </p>
           <p class="video-author">
+            <a class="channel-link" href="https://www.youtube.com/c/mkbhd">
             Marques Brownlee
+            </a>
           </p>
           <p class="video-stats">
             3.4M views &#183; 6 months ago
@@ -79,21 +119,29 @@
 
     <div class="video-preview">
       <div class="thumbnail-row">
-        <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+        <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+          <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+        </a>
         <div class="video-time">
           8:22
         </div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
-          <img class="profile-picture" src="channel-pics/channel-2.jpeg">
+          <a href="https://www.youtube.com/c/markiplier">
+            <img class="profile-picture" src="channel-pics/channel-2.jpeg">
+          </a>
         </div>
         <div class="video-info">
           <p class="video-title">
-            Try Not To Laugh Challenge #9
+            <a class="video-link" href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+              Try Not To Laugh Challenge #9
+            </a>
           </p>
           <p class="video-author">
-            Markiplier
+            <a class="channel-link" href="https://www.youtube.com/c/markiplier">
+              Markiplier
+            </a>
           </p>
           <p class="video-stats">
             19M views &#183 4 years ago
