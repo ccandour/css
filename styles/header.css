@@ -159,18 +159,20 @@
 }
 
 .notifications-count {
+  border-style: solid;
+  border-width: 2px;
   position: absolute;
-  top: -2px;
-  right: -5px;
+  top: -3px;
+  right: -7px;
   background-color: rgb(194, 1, 1);
   color: white;
   font-family: Roboto, Ariel;
-  font-size: 11px;
+  font-size: 10px;
   padding-left: 5px;
   padding-right: 5px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  border-radius: 10px;
+  padding-top: 1.2px;
+  padding-bottom: 1.2px;
+  border-radius: 80px;
 }
 
 .current-user-picture {
